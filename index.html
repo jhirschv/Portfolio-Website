@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Hirsch V</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div id="main">
+        <div class="content">
+            <div class="info">
+                <h1><span id="typed-element"></span></h1>
+                <img src="github-icon-white.jpg">
+                <img src="linkedin-icon-white.jpg">
+            </div>
+            <img src="pixalart1.png">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        new Typed('#typed-element', {
+            strings: ["", "John Hirsch V"],
+            typeSpeed: 40,
+            loop: false
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+    <script>
+        VANTA.DOTS({
+          el: "#main",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x898d98,
+          color2: 0x7a7a8e,
+          backgroundColor: 0x0,
+          size: 4.50,
+          spacing: 45.00,
+          showLines: false
+        })
+    </script>
+    
+</body>
+</html>
