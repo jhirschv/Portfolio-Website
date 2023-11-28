@@ -57,8 +57,9 @@ nav ul li {
     color: rgb(115, 11, 213);
 }
 .content img {
-    width: 600px;
-    margin-right: 100px;
+    width: 700px;
+    margin-right: 75px;
+    margin-top: 60px;
 }
 #typed-element {
     width: 400px;
@@ -85,7 +86,7 @@ nav ul li {
 .about-section h1{
     text-align: center;
     padding: 20px;
-    font-size: 60px;
+    font-size: 72px;
 }
 .skill-section{
     width: 50%
