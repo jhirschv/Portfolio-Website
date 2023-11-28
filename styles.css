@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Mona Sans", "MonaSansFallback", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     color: white;
 }
 h1{
@@ -12,6 +12,7 @@ h1{
     height: 100vh;
     width: 100%;
 }
+
 nav {
     height: 5vh;
     width: 100%;
@@ -36,25 +37,28 @@ nav ul li {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .content {
     display: flex;
     align-items: center;
+    padding-left: 100px;
 }
 .content h1{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
+    font-family: 'Press Start 2P', cursive;
+    padding: 15px;
 }
 .content h1.title {
     font-size: 60px;
-    color: lightgrey;
+    color: rgb(135, 135, 135);
 }
 .content h1.title span{
     color: rgb(115, 11, 213);
 }
 .content img {
     width: 600px;
+    margin-right: 100px;
 }
 #typed-element {
     width: 400px;
@@ -63,7 +67,6 @@ nav ul li {
     width: 50px;
     margin-right: 50px;
 }
-
 .about{
     height: 100vh;
     width: 100%;
@@ -82,7 +85,7 @@ nav ul li {
 .about-section h1{
     text-align: center;
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
 }
 .skill-section{
     width: 50%
@@ -95,21 +98,29 @@ nav ul li {
 .tech-logos{
     border: 1px solid rgb(66, 66, 66, 0.5);
     border-radius: 20px;
-    background-color: rgb(34, 33, 51);
+    background-color: rgb(15, 15, 22);
     margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     padding: 30px;
+    box-shadow: 0 0 10px 8px rgba(255, 255, 255, 0.1);
 }
 .about p{
-    font-size: 20px;
+    font-size: 23px;
     width: 100%;
     padding: 10px;
 }
 .about img{
     width: 75px;
     object-fit: contain;
-    padding: 15px;
+    padding: 20px;
+    margin: 9px;
+    border: 2px solid rgb(66, 66, 66, 0.5);
+    border-radius: 10px;
+    background-color: rgb(34, 33, 51);
+}
+.about img:hover{
+    border: 2px solid white;
 }
 
