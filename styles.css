@@ -56,7 +56,7 @@ nav ul li {
 .content h1.title span{
     color: rgb(115, 11, 213);
 }
-.content img {
+.pixel-art {
     width: 700px;
     margin-right: 75px;
     margin-top: 60px;
@@ -64,9 +64,14 @@ nav ul li {
 #typed-element {
     width: 400px;
 }
-.info img {
-    width: 50px;
-    margin-right: 50px;
+.profile-links-container{
+    display: flex;
+}
+.profile-links{
+    margin: 0 10px;
+}
+.profile-links img{
+    width: 65px;
 }
 .about{
     height: 100vh;
@@ -95,6 +100,8 @@ nav ul li {
     text-align: center;
     padding: 20px;
     font-weight: 700;
+    margin-right: 10%;
+    font-size: 50px;
 }
 .tech-logos{
     border: 1px solid rgb(66, 66, 66, 0.5);
@@ -125,3 +132,13 @@ nav ul li {
     border: 2px solid white;
 }
 
+.tech-logos, .about-section {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
