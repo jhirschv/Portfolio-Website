@@ -1,103 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John Hirsch V</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    
-    
-</head>
-<body>
-        
-
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="main">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <div class="info-container">
-            <div class="content">
-                <div class="info">
-                    <h1><span id="typed-element"></span></h1>
-                    <h1 class="title">Full-Stack <span>Developer</span></h1>
-                    <h3>Committed to Crafting High-Quality and Efficient Web Applications.</h3>
-                    <div class="profile-links-container">
-                        <div class="profile-links"><img src="logos/icons8-github-256.png"></div>
-                        <div class="profile-links"><img src="logos/icons8-linkedin-250 (1).png"></div>
-                    </div>
-                    
-                </div>
-                <img class="pixel-art"src="pixalart1.png">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <div class="info-container">
+        <div class="content">
+          <div class="info">
+            <h1><span id="typed-element"></span></h1>
+            <h1 class="title">Full-Stack <span>Developer</span></h1>
+            <h3>
+              Committed to Crafting High-Quality and Efficient Web Applications.
+            </h3>
+            <div class="profile-links-container">
+              <div class="profile-links">
+                <img src="logos/icons8-github-256.png" />
+              </div>
+              <div class="profile-links">
+                <img src="logos/icons8-linkedin-250 (1).png" />
+              </div>
             </div>
+          </div>
+          <img class="pixel-art" src="pixalart1.png" />
         </div>
-        <div class="about">
-            <div class="about-container">
-                <div class="about-section">
-                    <h1>About Me</h1>
-                    <p>
-                        Hello! I'm John, a Full Stack Developer dedicated to creating innovative web solutions. My expertise lies in transforming complex challenges into user-friendly digital experiences. Beyond coding, I draw inspiration from fitness, music, and my love for Dragon Ball Z. Committed to excellence, I'm ready to bring a unique blend of technical skill and creativity to a dynamic tech team.
-                    </p>
-                </div>
-                <div class="skill-section">
-                    <h1>Skills</h1>
-                    <div class="tech-logos">
-                        <img src="logos/python.png">
-                        <img src="logos/js.png">
-                        <img src="logos/django-logo.png">
-                        <img src="logos/React-logo.png">
-                        <img src="logos/html.png">
-                        <img src="logos/css-3.png">
-                        <img src="logos/vscode-logo.svg">
-                        <img src="logos/git-logo.png">
-                        <img src="logos/icons8-docker-logo-240.png">
-                        <img src="logos/icons8-aws-logo (1).svg">
-                        <img src="logos/icons8-mysql (1).svg">
-                        <img src="logos/icons8-github-256.png">
-                    </div>
-                    
-                </div>
+      </div>
+      <div class="about">
+        <div class="about-container">
+          <div class="about-section">
+            <h1>About Me</h1>
+            <p>
+              Hello! I'm John, a Full Stack Developer dedicated to creating
+              innovative web solutions. My expertise lies in transforming
+              complex challenges into user-friendly digital experiences. Beyond
+              coding, I draw inspiration from fitness, music, and my love for
+              Dragon Ball Z. Committed to excellence, I'm ready to bring a
+              unique blend of technical skill and creativity to a dynamic tech
+              team.
+            </p>
+          </div>
+          <div class="skill-section">
+            <h1>Skills</h1>
+            <div class="tech-logos">
+              <img src="logos/python.png" />
+              <img src="logos/js.png" />
+              <img src="logos/django-logo.png" />
+              <img src="logos/React-logo.png" />
+              <img src="logos/html.png" />
+              <img src="logos/css-3.png" />
+              <img src="logos/vscode-logo.svg" />
+              <img src="logos/git-logo.png" />
+              <img src="logos/icons8-docker-logo-240.png" />
+              <img src="logos/icons8-aws-logo (1).svg" />
+              <img src="logos/icons8-mysql (1).svg" />
+              <img src="logos/icons8-github-256.png" />
             </div>
-
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        new Typed('#typed-element', {
-            strings: ["John Hirsch V"],
-            typeSpeed: 80,
-            loop: false
-        });
+      new Typed("#typed-element", {
+        strings: ["John Hirsch V"],
+        typeSpeed: 80,
+        loop: false,
+      });
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
     <script>
-        VANTA.DOTS({
-          el: "#main",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.00,
-          minWidth: 200.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0x898d98,
-          color2: 0x7a7a8e,
-          backgroundColor: 0x0,
-          size: 4.50,
-          spacing: 45.00,
-          showLines: false
-        })
+      VANTA.DOTS({
+        el: "#main",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x898d98,
+        color2: 0x7a7a8e,
+        backgroundColor: 0x0,
+        size: 4.5,
+        spacing: 45.0,
+        showLines: false,
+      });
     </script>
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
